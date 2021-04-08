@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+  line-height: 2.5;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 120vh;
+  background-color: #999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container,
+.container-edit {
+  width: 70vw;
+  height: 100%;
+  padding: 20px;
+  background-color: #333;
+  color: #eee;
+}
+
+.button {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: orange;
+  text-transform: uppercase;
+}
+
+#btn-save-profile {
+  background-color: #00d0a0;
+}
+
+input {
+  font-size: 20px;
+  background-color: #333;
+  color: #eee;
+  width: 100%;
+  border: none;
+  line-height: 2.5;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+img {
+  height: 20%;
+  width: auto;
+}
+/*# sourceMappingURL=styles.css.map */

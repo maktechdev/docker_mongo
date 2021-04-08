@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./static/script.js"></script>
+    <link rel="stylesheet" href="./static/styles.css">
+    <title>User Profile</title>
+</head>
+<body>
+<div class="container">
+    <h1 id="header">User Profile</h1>
+    <img src="./images/profile-picture.png" alt="">
+    <br>
+    Name: <h3 id="name">Moby Khan</h3>
+    <hr>
+    Email: <h3 id="email">mobykhan@example.com</h3>
+    <hr>
+    Interests: <h3 id="interests">Coding</h3>
+    <hr>
+    <button id="btn-edit-profile" class="button" onclick="editProfile()">Edit Profile</button>
+</div>
+<div class="container-edit">
+    <h1 id="edit-header" >User Profile</h1>
+    <img src="./images/profile-picture.png" alt="">
+    <br>
+    Name: <input id="input-name" type="text">
+    <hr>
+    Email: <input id="input-email" type="email">
+    <hr>
+    Interests: <input id="input-interests" type="text">
+    <hr>
+    <button id="btn-save-profile" class="button" onclick="saveProfile()">Save Profile</button>
+</div>
+</body>
+</html>
