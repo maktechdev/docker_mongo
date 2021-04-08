@@ -1,9 +1,15 @@
+require("dotenv").config()
 var express = require("express")
 var path = require("path")
 var fs = require("fs")
 var app = express()
+var MongoClient = require('mongodb').MongoClient()
 
+app.use(bodyParser.urlencoded({
+    extended=True
+}))
 
+app.use(bodyParser.json())
 app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname, "index.html"))
 })
